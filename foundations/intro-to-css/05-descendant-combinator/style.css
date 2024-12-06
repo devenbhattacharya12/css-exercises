@@ -1,0 +1,16 @@
+.container {
+    background-color: yellow;
+    color: red;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;  /* Allow wrapping to new lines */
+  }
+  
+  .container .text {
+    background-color: yellow;
+    color: red;
+    display: block;   /* Ensure each <p> is block-level so it naturally takes up a line */
+    width: 100%;      /* Make the <p> take up the full width of the container */
+    text-align: center; /* Center the text inside the <p> */
+  }
+  
