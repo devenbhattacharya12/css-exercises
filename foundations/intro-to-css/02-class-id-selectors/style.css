@@ -1,0 +1,20 @@
+/* Styling the odd elements red background and black font */
+.odd.style {
+    background-color: #f08080;
+    color:#000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.odd.style.cooler {
+    font-size: 24px;
+}
+#second-element-style {
+    color:#0000ff;
+    font-size: 32px;
+}
+#fourth-element-style {
+    background-color: #90ee90;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+/* `Verdana` and `DejaVu Sans` with `sans-serif */
