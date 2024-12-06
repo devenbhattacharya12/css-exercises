@@ -1,0 +1,20 @@
+/* Give both buttons common style */
+/* - **Both elements**: a font size of 28px and a list of fonts containing `Helvetica` and `Times New Roman`, with `sans-serif` as a fallback */
+
+.button.style {
+    font-size: 28px;
+    font-family: Times, Helvetica, sans-serif;
+}
+/* now give specific style to button 1 */
+/* - **The first element**: a black background and white text*/
+
+.button.style.one {
+    background-color: black;
+    color:white;
+}
+
+/* - **The second element**: a yellow background */
+
+.button.style.two {
+    background-color: yellow;
+}
