@@ -1,0 +1,12 @@
+/* styles.css */
+
+/* give the first element the following: a red background, white text, a font size of 32px, center aligned, and bold */
+
+div {
+    display: flex;
+    background-color: red;
+    color: white;
+    font-size: 32px;
+    justify-content: center;
+    font-weight: bold;
+}
