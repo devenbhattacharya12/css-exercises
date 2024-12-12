@@ -22,6 +22,26 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 22px;
+  margin: 5px;
+}
+.text {
+  display: flex;
+  margin-left: 80px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.bottom {
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+
 .icon {
   color: royalblue;
   font-size: 26px;
